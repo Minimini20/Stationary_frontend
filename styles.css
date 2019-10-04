@@ -1,0 +1,116 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.topbar{
+    height: 12vh;
+    background: #3b5997 ;
+    color: white ;
+
+}
+
+.mainbody{
+    height : 81vh ; 
+    background: linear-gradient(0deg , #D4D9E8 , #FFFFFF) ;
+    color : black ; 
+
+}
+.container {
+    width :71vw ; 
+    margin : auto ; 
+    height : 100% ; 
+
+}
+.flexbox {
+    display : flex ; 
+
+}
+.leftdiv {
+     flex-grow: 1 ;
+     line-height: 20vh ;
+}
+
+.rightdiv {
+    flex-grow: 1 ;
+}
+.mainbody .leftdiv {
+    padding: 35px 0px ;
+}
+
+.flex-right {
+    justify-content: flex-end;
+}
+.info-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#091e47 ;
+    font-size:15pt;
+    line-height: 20pt;
+    width:65%
+}
+.top-margin{
+    margin-top: 20px;
+}
+.topbar .rightdiv{
+    font-size: 10pt;
+}
+.input-space{
+    margin-right: 0.5cm ;
+}
+.Login-button{
+    background: rgb(70, 109, 192);
+    color:white;
+    font-weight:bold;
+    border:none;
+    padding:4px ; 
+}
+.mainbody input[type="text"]{
+    padding: 10px ;
+    font-size: 20px ;
+    margin-right: 10px;
+    border: solid 1px rgba(128,128,128,0.493) ;
+    border-radius:5px
+}
+.bigbutton input[type="text"] {
+    width : 188% ; 
+    padding: 10px ;
+    font-size: 20px ;
+    margin: 10px 10px 0 0 ; 
+    border: solid 1px rgba(128,128,128,0.493) ;
+    border-radius:5px;
+
+}
+.bigbutton input[type="password"] {
+    width : 188% ; 
+    padding: 10px ;
+    font-size: 20px ;
+    margin: 10px 10px 0 0 ; 
+    border: solid 1px rgba(128,128,128,0.493) ;
+    border-radius:5px;
+
+}
+select{
+    font-size: 15px ;
+    padding: 4px;
+}
+.mainbody input[type="radio"]{
+    font-size: 25px ;
+}
+
+.mainbody p {
+    font-size: 12px ;
+    width: 300px;
+    opacity: 0.7;
+}
+.biggreenbutton{
+    font-size: 20px;
+    padding:7px 68px ;
+    font-weight: bold;
+    background: linear-gradient(180deg,#97c77b, #64884D);
+    color: white;
+    border-radius: 5px;
+    border: solid 1px rgba(36, 36, 36, 0.493);
+}
+.footer{
+
+}
